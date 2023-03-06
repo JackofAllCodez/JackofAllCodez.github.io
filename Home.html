@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<style>
+    .bac{
+        background-image: url('https://wallpapercave.com/wp/wp6751611.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        overflow: hidden;
+    }
+    #pic{
+        border-radius : 50%;
+        height: 400px;
+        width: 400px;
+    }
+    .nav{
+        width: 99.999vw;
+        height: 10vh;
+        text-align : center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        place-items: center;
+        background-color: white;
+        background-attachment: fixed;
+    }
+    .nav a{
+        color:black;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .nav a:hover{
+        color:rgb(0, 156, 223);
+    }
+    .nav a:visited{
+        color:black;
+    }
+    .nav a:visited:hover{
+        color:rgb(0, 156, 223);
+    }
+    .scn{
+        color: black;
+        height: 30px;
+        width: 90;
+        padding: 4px;
+        border: 2px solid black;
+        text-decoration: none;
+     }
+    .te{
+        padding-top: 2.5cm;
+        font-size: 42px ;
+        float: left;
+        padding-left: 10%;
+        color: black;
+    }
+    .picc{
+        padding-top: 2cm;
+        float: right;
+        padding-right: 12%;
+    }
+    .co{
+        align-items: center;
+        justify-content: center;
+    }
+    .text {
+        font-size: 60px;
+    }
+    .know {
+        font-size: 20px;
+        border: 0.01cm solid black;
+        border-radius: 20px;
+        padding:10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        color:black;
+    }
+    .know:hover {
+        cursor: pointer;
+        color:black ;
+        background-color: rgb(0, 156, 223);
+    }
+    .soc img{
+        height:27px;
+        width:27px;
+        border-radius: 10px;;
+    }
+</style>
+<body class="bac">
+<div>
+    <div class="nav">
+        <a href="Project.html"><b>HOME</b></a> 
+        <a href="About.html"><b>ABOUT</b></a> 
+        <a href="Education.html"><b>EDUCATION</b></a>
+        <a href="Skills.html"><b>SKILLS</b></a> 
+        <a href="Contacts.html"><b>CONTACTS</b></a> 
+    </div>
+    <div class="co">
+        <div class="te"> 
+            <p class="text"><b>Hi There,<br>I'm Jai Khanna!</b></p>
+            <a href="About.html"><button class="know" id="js"><b>About me</b></button></a>
+            <div class="soc">
+                <a href="https://www.linkedin.com/in/jai-khanna-71a530202" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/38/38669.png" title="Linkedin"></a>
+                <a href="https://github.com/JackofAllCodez" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" title="Github"></a>
+                <a href="https://twitter.com/jaikhanna6395" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/60/60580.png" title="Twitter"></a>
+                <a href="https://www.instagram.com/jai_khanna04" target="_blank"><img src="https://www.pngkey.com/png/full/1-13374_instagram-icon-new-black-background-vector-logo-instagram.png" title="Instagram"></a>
+                <a href="https://www.facebook.com/jai.khanna.5203" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/20/20673.png" title="Facebook"></a>
+            </div>
+        </div>
+        <script>
+            const js = document.getElementById('js');
+            js.addEventListener('click', function() {
+                alert('Hello! Welcome to my Portfolio website!');
+            });
+        </script>
+        <div class="picc">
+            <img id="pic" src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_421,h_421/https://rodrigovarejao.com/wp-content/uploads/2020/03/e1b15bb6c52837a140a593a99a3c3066-sticker.png">
+        </div>
+    </div>
+</div>
+</body>
+</html>

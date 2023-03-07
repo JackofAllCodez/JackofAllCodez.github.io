@@ -118,7 +118,27 @@
         height:280px;
     }
     #pic2 #i4 {
-        height:180px;
+        height:170px;
+    }
+    #pic2 .i5 {
+        height:270px;
+    }
+    .pics img:hover {
+        box-shadow: 2px 10px 10px rgb(58, 58, 58);
+        transform: translateY(-4px);
+    }
+    .an4 {
+        animation-name: down;
+        animation-duration: 2s;
+        animation-iteration-count: initial;
+    }
+    @keyframes down {
+        from {
+            transform: translateX(-1500px);
+        }
+        to {
+            transform: translateX(0px);
+        }
     }
 </style>
 <body class="bac">
@@ -130,42 +150,44 @@
         <a href="Skills.html"><b>SKILLS</b></a> 
         <a href="Contacts.html"><b>CONTACTS</b></a> 
     </div>
+    <div class="an4">
     <h4>Here are some of the pictures clicked by me :</h4><br>
     <h3><u>Space</u></h3>
     <div class="row">
         <div class="pics">
-            <img src="https://i.pinimg.com/564x/80/c6/fc/80c6fcadaadced89e41f7a90fcf75513.jpg">
-            <img src="https://i.pinimg.com/564x/45/9d/d6/459dd670022e7007d8542f658236d3f9.jpg">
-            <img src="https://i.pinimg.com/736x/8c/d9/bd/8cd9bd00daa790a79995a8655c0cd322.jpg">
+            <img src="https://i.pinimg.com/564x/80/c6/fc/80c6fcadaadced89e41f7a90fcf75513.jpg" title="Starry Night Sky">
+            <img src="https://i.pinimg.com/564x/45/9d/d6/459dd670022e7007d8542f658236d3f9.jpg" title="Moon, Jupiter and Venus">
+            <img src="https://i.pinimg.com/736x/8c/d9/bd/8cd9bd00daa790a79995a8655c0cd322.jpg" title="Moon">
         </div>
     </div><br><br>
-    <h3><u>Nature</u></h3>
+    <h3><u>Flowers</u></h3>
     <div class="row">
         <div class="pics" id="pic2">
-            <img src="https://i.pinimg.com/564x/71/87/67/71876764761f2dd3fdc8b7a5b9c2adef.jpg">
-            <img src="https://i.pinimg.com/564x/16/ae/8f/16ae8ffa45a3a87ca4b031ea0f925af7.jpg" id="i4">
-            <img src="https://i.pinimg.com/564x/6a/1f/40/6a1f4019396d2d5d2e306701db437e09.jpg">
-            <img src="https://i.pinimg.com/564x/29/e2/e7/29e2e7c6f76b34a92f60b32960fee3a1.jpg">
-            <img src="https://i.pinimg.com/564x/d7/de/0b/d7de0bfb745f4c148072085bccdbbd88.jpg">
-            <img src="https://i.pinimg.com/564x/a8/7c/b8/a87cb8bb3ba4ec57827e6c4dad622320.jpg">
-            <img src="https://i.pinimg.com/736x/fa/a5/26/faa52692a488701611cf0a0fbd3e7370.jpg">
+            <img src="https://i.pinimg.com/564x/71/87/67/71876764761f2dd3fdc8b7a5b9c2adef.jpg" class="i5" title="Orange Calendula">
+            <img src="https://i.pinimg.com/564x/16/ae/8f/16ae8ffa45a3a87ca4b031ea0f925af7.jpg" id="i4" title="Tridax Daisy">
+            <img src="https://i.pinimg.com/564x/6a/1f/40/6a1f4019396d2d5d2e306701db437e09.jpg" class="i5" title="Daisy">
+            <img src="https://i.pinimg.com/564x/29/e2/e7/29e2e7c6f76b34a92f60b32960fee3a1.jpg" class="i5" title="Red Ixora">
+            <img src="https://i.pinimg.com/564x/d7/de/0b/d7de0bfb745f4c148072085bccdbbd88.jpg" >
+            <img src="https://i.pinimg.com/564x/a8/7c/b8/a87cb8bb3ba4ec57827e6c4dad622320.jpg" title="Pink Periwinkle">
+            <img src="https://i.pinimg.com/736x/fa/a5/26/faa52692a488701611cf0a0fbd3e7370.jpg" title="Trumpet Vine">
         </div>
     </div><br><br>
     <h3><u>Architecture</u></h3>
     <div class="row">
         <div class="pics">
-            <img src="https://i.pinimg.com/564x/67/fc/04/67fc04487fc7a5305a4532be5558556e.jpg">
-            <img src="https://i.pinimg.com/736x/6e/34/15/6e34157ee8aa3eee1850898dc34008f3.jpg">
+            <img src="https://i.pinimg.com/564x/67/fc/04/67fc04487fc7a5305a4532be5558556e.jpg" title="">
+            <img src="https://i.pinimg.com/736x/6e/34/15/6e34157ee8aa3eee1850898dc34008f3.jpg" title="">
         </div>
     </div><br><br>
     <h3><u>Animals</u></h3>
     <div class="row">
         <div class="pics">
-            <img src="https://i.pinimg.com/564x/77/bd/2a/77bd2afe1bd5867fd2ebcf0e2ccdd2c8.jpg" id="i1">
-            <img src="https://i.pinimg.com/564x/7f/75/63/7f7563ea98e6253e1a23984adc3dd88b.jpg" id="i2">
-            <img src="https://i.pinimg.com/564x/29/92/2d/29922d95922230ac8516dfe1c445ece9.jpg" id="i3">
+            <img src="https://i.pinimg.com/564x/77/bd/2a/77bd2afe1bd5867fd2ebcf0e2ccdd2c8.jpg" id="i1" title="">
+            <img src="https://i.pinimg.com/564x/7f/75/63/7f7563ea98e6253e1a23984adc3dd88b.jpg" id="i2" title="">
+            <img src="https://i.pinimg.com/564x/29/92/2d/29922d95922230ac8516dfe1c445ece9.jpg" id="i3" title="">
         </div>
     </div>
+</div>
 </div>
 </body>
 </html>

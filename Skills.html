@@ -97,6 +97,19 @@
     .gal a:hover{
         cursor: pointer;
     }
+    .an3 {
+        animation-name: down;
+        animation-duration: 1.5s;
+        animation-iteration-count: initial; 
+    }
+    @keyframes down {
+        from {
+            transform: translateY(-700px);
+        }
+        to {
+            transform: translateY(0px);
+        }
+    }
 </style>
 <body class="bac">
 <div>
@@ -107,6 +120,7 @@
         <a href="Skills.html"><b>SKILLS</b></a> 
         <a href="Contacts.html"><b>CONTACTS</b></a> 
     </div>
+    <div class="an3">
     <div class="co1"><br>
         <h2><u>Technical Skills</u></h2>
         <ol>
@@ -131,6 +145,7 @@
     <div class="gal">
         Click <a href="Gallery.html">here</a> to have a look at some of the pictures that I have clicked!
     </div>
+</div>
 </div>
 </body>
 </html>

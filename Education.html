@@ -109,6 +109,19 @@
     thead {
         color:black;
     }
+    .an {
+        animation-name: down;
+        animation-duration: 1.5s;
+        animation-iteration-count: initial;
+    }
+    @keyframes down {
+        from {
+            transform: translateY(-800px);
+        }
+        to {
+            transform: translateY(0px);
+        }
+    }
 </style>
 <body class="bac">
 <div>
@@ -119,6 +132,7 @@
         <a href="Skills.html"><b>SKILLS</b></a> 
         <a href="Contacts.html"><b>CONTACTS</b></a> 
     </div>
+    <div class="an">
     <div class="co">
         <table>
             <thead>
@@ -142,6 +156,7 @@
             <li>Best Outgoing Student 2021-22 Award</li> 
         </ol>
     </div>
+</div>
 </div>
 </body>
 </html>
